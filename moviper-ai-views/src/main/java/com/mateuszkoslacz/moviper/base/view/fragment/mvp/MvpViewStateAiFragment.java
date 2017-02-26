@@ -28,8 +28,8 @@ import com.hannesdorfmann.mosby.mvp.delegate.FragmentMvpViewStateDelegateImpl;
 import com.hannesdorfmann.mosby.mvp.viewstate.ViewState;
 
 /**
- * This is a enhancement of {@link com.hannesdorfmann.mosby.mvp.MvpFragment} that introduces the
- * support of {@link com.hannesdorfmann.mosby.mvp.viewstate.ViewState}.
+ * This is a enhancement of {@link MvpFragment} that introduces the
+ * support of {@link ViewState}.
  * <p>
  * You can change the behaviour of what to do if the viewstate is empty (usually if the fragment
  * creates the viewState for the very first time and therefore has no state / data to restore) by

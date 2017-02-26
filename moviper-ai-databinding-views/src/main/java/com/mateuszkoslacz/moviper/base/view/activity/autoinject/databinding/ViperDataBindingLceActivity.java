@@ -7,6 +7,7 @@ import android.view.View;
 import com.hannesdorfmann.mosby.mvp.MvpPresenter;
 import com.hannesdorfmann.mosby.mvp.lce.MvpLceView;
 import com.mateuszkoslacz.moviper.base.view.activity.autoinject.ViperLceAiActivity;
+import com.mateuszkoslacz.moviper.iface.view.ViperView;
 
 /**
  * Created by mateuszkoslacz on 14.12.2016.
@@ -19,7 +20,7 @@ public abstract class ViperDataBindingLceActivity
                 Presenter extends MvpPresenter<ViewType>,
                 Binding extends ViewDataBinding>
         extends ViperLceAiActivity<ContentView, Model, ViewType, Presenter>
-        implements MvpLceView<Model>, com.mateuszkoslacz.moviper.iface.view.ViperView {
+        implements MvpLceView<Model>, ViperView {
 
     protected Binding mBinding;
 

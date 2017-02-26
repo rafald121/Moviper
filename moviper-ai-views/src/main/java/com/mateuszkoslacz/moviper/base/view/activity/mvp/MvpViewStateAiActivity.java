@@ -26,7 +26,7 @@ import com.hannesdorfmann.mosby.mvp.viewstate.RestorableViewState;
 import com.hannesdorfmann.mosby.mvp.viewstate.ViewState;
 
 /**
- * This is a enhancement of {@link com.hannesdorfmann.mosby.mvp.MvpActivity} that introduces the
+ * This is a enhancement of {@link MvpActivity} that introduces the
  * support of {@link RestorableViewState}.
  * <p>
  * You can change the behaviour of what to do if the viewstate is empty (usually if the activity

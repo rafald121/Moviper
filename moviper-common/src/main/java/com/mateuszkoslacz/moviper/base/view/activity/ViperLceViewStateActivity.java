@@ -1,6 +1,6 @@
 package com.mateuszkoslacz.moviper.base.view.activity;
 
-import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.view.View;
@@ -9,6 +9,7 @@ import com.hannesdorfmann.mosby.mvp.MvpPresenter;
 import com.hannesdorfmann.mosby.mvp.lce.MvpLceView;
 import com.hannesdorfmann.mosby.mvp.viewstate.ViewState;
 import com.hannesdorfmann.mosby.mvp.viewstate.lce.MvpLceViewStateActivity;
+import com.mateuszkoslacz.moviper.iface.view.ViperView;
 
 /**
  * Created by tomasznajda on 14.12.2016.
@@ -21,7 +22,7 @@ public abstract class ViperLceViewStateActivity
                 Presenter extends MvpPresenter<ViewType>,
                 ViewStateType extends ViewState<ViewType>>
         extends MvpLceViewStateActivity<ContentView, Model, ViewType, Presenter>
-        implements MvpLceView<Model>, com.mateuszkoslacz.moviper.iface.view.ViperView {
+        implements MvpLceView<Model>, ViperView {
 
     @Override
     public ViewStateType getViewState() {
@@ -30,7 +31,7 @@ public abstract class ViperLceViewStateActivity
 
     @NonNull
     @Override
-    public Activity getActivity() {
+    public Context getContext() {
         return this;
     }
 

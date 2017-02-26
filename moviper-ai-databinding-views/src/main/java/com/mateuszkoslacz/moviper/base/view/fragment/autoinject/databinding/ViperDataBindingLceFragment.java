@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import com.hannesdorfmann.mosby.mvp.MvpPresenter;
 import com.hannesdorfmann.mosby.mvp.lce.MvpLceView;
 import com.mateuszkoslacz.moviper.base.view.fragment.autoinject.ViperLceAiFragment;
+import com.mateuszkoslacz.moviper.iface.view.ViperView;
 
 /**
  * Created by mateuszkoslacz on 14.12.2016.
@@ -23,7 +24,7 @@ public abstract class ViperDataBindingLceFragment
                 Presenter extends MvpPresenter<ViewType>,
                 Binding extends ViewDataBinding>
         extends ViperLceAiFragment<ContentView, Model, ViewType, Presenter>
-        implements MvpLceView<Model>, com.mateuszkoslacz.moviper.iface.view.ViperView {
+        implements MvpLceView<Model>, ViperView {
 
     protected Binding mBinding;
 

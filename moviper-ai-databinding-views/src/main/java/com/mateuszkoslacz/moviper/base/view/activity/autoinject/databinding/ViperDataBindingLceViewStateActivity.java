@@ -8,6 +8,7 @@ import com.hannesdorfmann.mosby.mvp.MvpPresenter;
 import com.hannesdorfmann.mosby.mvp.lce.MvpLceView;
 import com.hannesdorfmann.mosby.mvp.viewstate.ViewState;
 import com.mateuszkoslacz.moviper.base.view.activity.autoinject.ViperLceViewStateAiActivity;
+import com.mateuszkoslacz.moviper.iface.view.ViperView;
 
 /**
  * Created by mateuszkoslacz on 14.12.2016.
@@ -21,7 +22,7 @@ public abstract class ViperDataBindingLceViewStateActivity
                 ViewStateType extends ViewState<ViewType>,
                 Binding extends ViewDataBinding>
         extends ViperLceViewStateAiActivity<ContentView, Model, ViewType, Presenter, ViewStateType>
-        implements MvpLceView<Model>, com.mateuszkoslacz.moviper.iface.view.ViperView {
+        implements MvpLceView<Model>, ViperView {
 
     protected Binding mBinding;
 

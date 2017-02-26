@@ -3,8 +3,6 @@ package com.mateuszkoslacz.moviper.base.mateuszkoslacz.moviper.base.view.fragmen
 import android.view.View;
 
 import com.hannesdorfmann.mosby.mvp.lce.MvpLceView;
-import com.mateuszkoslacz.moviper.base.view.fragment.autoinject.passive.ViperLceAiPassiveFragment;
-import com.mateuszkoslacz.moviper.iface.view.ViperView;
 
 import butterknife.ButterKnife;
 

@@ -11,7 +11,8 @@ import android.view.ViewGroup;
 import com.hannesdorfmann.mosby.mvp.MvpPresenter;
 import com.hannesdorfmann.mosby.mvp.MvpView;
 import com.mateuszkoslacz.moviper.base.view.fragment.autoinject.ViperAiFragment;
-import com.mateuszkoslacz.moviper.iface.view.ActivityHolder;
+import com.mateuszkoslacz.moviper.iface.view.ContextHolder;
+import com.mateuszkoslacz.moviper.iface.view.ViperView;
 
 /**
  * Created by mateuszkoslacz on 14.12.2016.
@@ -22,7 +23,7 @@ public abstract class ViperDataBindingFragment
                 Presenter extends MvpPresenter<ViewType>,
                 Binding extends ViewDataBinding>
         extends ViperAiFragment<ViewType, Presenter>
-        implements MvpView, ActivityHolder {
+        implements ViperView {
 
     protected Binding mBinding;
 

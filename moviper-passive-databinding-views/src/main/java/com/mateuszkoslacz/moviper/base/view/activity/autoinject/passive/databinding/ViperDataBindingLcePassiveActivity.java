@@ -5,8 +5,6 @@ import android.databinding.ViewDataBinding;
 import android.view.View;
 
 import com.hannesdorfmann.mosby.mvp.lce.MvpLceView;
-import com.mateuszkoslacz.moviper.base.view.activity.autoinject.passive.ViperLceAiPassiveActivity;
-import com.mateuszkoslacz.moviper.iface.view.ViperView;
 
 /**
  * Created by mateuszkoslacz on 14.12.2016.

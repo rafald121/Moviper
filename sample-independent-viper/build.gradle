@@ -29,7 +29,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:' + rootProject.ext.supportVersion
-    compile project(path: ':moviper')
+    compile project(path: ':moviper-common')
 
     compile 'com.jakewharton:butterknife:' + rootProject.ext.butterKnifeVersion
     apt 'com.jakewharton:butterknife-compiler:' + rootProject.ext.butterKnifeVersion

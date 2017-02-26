@@ -6,4 +6,4 @@ include ':moviper-test', ':sample-independent-viper', ':sample', ':sample-rx', '
         ':moviper-passive-views', ':moviper-passive-butterknife-views', ':moviper-passive-databinding-views',
         ':sample-super-rx-ai-kotlin', ':sample-super-rx-databinding', ':sample-ipc',
         ':sample-recyclerview', 'sample-rx-viewstate',
-        ':sample-rx-rdp', ':sample-service'
+        ':sample-rx-rdp', ':sample-service', ':moviper'

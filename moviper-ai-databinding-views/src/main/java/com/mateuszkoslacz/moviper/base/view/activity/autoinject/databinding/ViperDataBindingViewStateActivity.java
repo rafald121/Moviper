@@ -7,7 +7,7 @@ import com.hannesdorfmann.mosby.mvp.MvpPresenter;
 import com.hannesdorfmann.mosby.mvp.MvpView;
 import com.hannesdorfmann.mosby.mvp.viewstate.ViewState;
 import com.mateuszkoslacz.moviper.base.view.activity.autoinject.ViperViewStateAiActivity;
-import com.mateuszkoslacz.moviper.iface.view.ActivityHolder;
+import com.mateuszkoslacz.moviper.iface.view.ViperView;
 
 /**
  * Created by mateuszkoslacz on 14.12.2016.
@@ -19,7 +19,7 @@ public abstract class ViperDataBindingViewStateActivity
                 ViewStateType extends ViewState<ViewType>,
                 Binding extends ViewDataBinding>
         extends ViperViewStateAiActivity<ViewType, Presenter, ViewStateType>
-        implements MvpView, ActivityHolder {
+        implements ViperView {
 
     protected Binding mBinding;
 

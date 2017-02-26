@@ -38,7 +38,7 @@ dependencies {
     compile 'io.reactivex:rxandroid:' + rootProject.ext.rxAndroidVersion
 
     compile 'junit:junit:' + rootProject.ext.junitVersion
-    compile project(':moviper')
+    compile project(':moviper-common')
 }
 
 
