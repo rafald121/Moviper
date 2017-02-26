@@ -20,7 +20,7 @@ public abstract class ViperDataBindingLceActivity
                 Presenter extends MvpPresenter<ViewType>,
                 Binding extends ViewDataBinding>
         extends ViperLceAiActivity<ContentView, Model, ViewType, Presenter>
-        implements MvpLceView<Model>, ViperView {
+        implements ViperLceView<Model> {
 
     protected Binding mBinding;
 

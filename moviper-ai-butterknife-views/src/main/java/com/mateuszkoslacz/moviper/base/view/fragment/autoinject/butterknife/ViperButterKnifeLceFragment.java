@@ -19,7 +19,7 @@ public abstract class ViperButterKnifeLceFragment
                 ViewType extends MvpLceView<Model>,
                 Presenter extends MvpPresenter<ViewType>>
         extends ViperLceAiFragment<ContentView, Model, ViewType, Presenter>
-        implements MvpLceView<Model>, ViperView {
+        implements ViperLceView<Model> {
 
     @Override
     protected void injectViews(View view) {

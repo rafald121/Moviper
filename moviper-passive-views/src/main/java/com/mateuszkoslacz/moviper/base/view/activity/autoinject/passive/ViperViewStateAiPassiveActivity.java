@@ -7,6 +7,7 @@ import com.hannesdorfmann.mosby.mvp.viewstate.ViewState;
 import com.mateuszkoslacz.moviper.base.view.activity.autoinject.ViperViewStateAiActivity;
 import com.mateuszkoslacz.moviper.iface.presenter.ViperPresenter;
 import com.mateuszkoslacz.moviper.iface.view.ContextHolder;
+import com.mateuszkoslacz.moviper.iface.view.ViperView;
 
 /**
  * Created by bwilk on 12/22/16.

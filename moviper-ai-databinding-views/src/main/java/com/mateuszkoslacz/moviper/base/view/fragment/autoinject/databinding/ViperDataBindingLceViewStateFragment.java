@@ -26,7 +26,7 @@ public abstract class ViperDataBindingLceViewStateFragment
                 ViewStateType extends ViewState<ViewType>,
                 Binding extends ViewDataBinding>
         extends ViperLceViewStateAiFragment<ContentView, Model, ViewType, Presenter, ViewStateType>
-        implements MvpLceView<Model>, ViperView {
+        implements ViperLceView<Model> {
 
     protected Binding mBinding;
 

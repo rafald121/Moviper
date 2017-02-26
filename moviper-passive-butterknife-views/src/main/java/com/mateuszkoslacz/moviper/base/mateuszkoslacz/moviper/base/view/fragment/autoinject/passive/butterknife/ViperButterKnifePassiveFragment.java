@@ -3,7 +3,9 @@ package com.mateuszkoslacz.moviper.base.mateuszkoslacz.moviper.base.view.fragmen
 import android.view.View;
 
 import com.hannesdorfmann.mosby.mvp.MvpView;
+import com.mateuszkoslacz.moviper.base.view.fragment.autoinject.passive.ViperAiPassiveFragment;
 import com.mateuszkoslacz.moviper.iface.view.ContextHolder;
+import com.mateuszkoslacz.moviper.iface.view.ViperView;
 
 import butterknife.ButterKnife;
 

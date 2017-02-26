@@ -20,7 +20,7 @@ public abstract class ViperLceActivity
                 ViewType extends MvpLceView<Model>,
                 Presenter extends MvpPresenter<ViewType>>
         extends MvpLceActivity<ContentView, Model, ViewType, Presenter>
-        implements MvpLceView<Model>, ViperView {
+        implements ViperLceView<Model> {
 
     @NonNull
     @Override

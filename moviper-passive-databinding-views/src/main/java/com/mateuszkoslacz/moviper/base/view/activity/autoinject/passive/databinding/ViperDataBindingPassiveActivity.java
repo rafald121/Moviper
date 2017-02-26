@@ -4,7 +4,9 @@ import android.databinding.DataBindingUtil;
 import android.databinding.ViewDataBinding;
 
 import com.hannesdorfmann.mosby.mvp.MvpView;
+import com.mateuszkoslacz.moviper.base.view.activity.autoinject.passive.ViperAiPassiveActivity;
 import com.mateuszkoslacz.moviper.iface.view.ContextHolder;
+import com.mateuszkoslacz.moviper.iface.view.ViperView;
 
 /**
  * Created by mateuszkoslacz on 14.12.2016.

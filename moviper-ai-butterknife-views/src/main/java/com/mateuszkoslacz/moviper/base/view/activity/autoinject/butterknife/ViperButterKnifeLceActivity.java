@@ -5,6 +5,7 @@ import android.view.View;
 import com.hannesdorfmann.mosby.mvp.MvpPresenter;
 import com.hannesdorfmann.mosby.mvp.lce.MvpLceView;
 import com.mateuszkoslacz.moviper.base.view.activity.autoinject.ViperLceAiActivity;
+import com.mateuszkoslacz.moviper.iface.view.ViperLceView;
 import com.mateuszkoslacz.moviper.iface.view.ViperView;
 
 import butterknife.ButterKnife;
@@ -19,7 +20,7 @@ public abstract class ViperButterKnifeLceActivity
                 ViewType extends MvpLceView<Model>,
                 Presenter extends MvpPresenter<ViewType>>
         extends ViperLceAiActivity<ContentView, Model, ViewType, Presenter>
-        implements MvpLceView<Model>, ViperView {
+        implements ViperLceView<Model> {
 
     @Override
     protected void injectViews() {

@@ -68,7 +68,7 @@ public class ActivityStarter {
 
         private Context context;
         private Intent intent;
-        private ViperPresenter<ViewType, ?, ?> presenter; // TODO: 08.01.2017 is it ok to generify it like this?
+        private ViperPresenter<ViewType> presenter; // TODO: 08.01.2017 is it ok to generify it like this?
 
         private Builder() {
         }
@@ -83,7 +83,7 @@ public class ActivityStarter {
             return this;
         }
 
-        public Builder withPresenter(@NonNull ViperPresenter<ViewType, ?, ?> val) {
+        public Builder withPresenter(@NonNull ViperPresenter<ViewType> val) {
             presenter = val;
             return this;
         }

@@ -2,7 +2,9 @@ package com.mateuszkoslacz.moviper.base.mateuszkoslacz.moviper.base.view.activit
 
 import com.hannesdorfmann.mosby.mvp.MvpView;
 import com.hannesdorfmann.mosby.mvp.viewstate.ViewState;
+import com.mateuszkoslacz.moviper.base.view.activity.autoinject.passive.ViperViewStateAiPassiveActivity;
 import com.mateuszkoslacz.moviper.iface.view.ContextHolder;
+import com.mateuszkoslacz.moviper.iface.view.ViperView;
 
 import butterknife.ButterKnife;
 

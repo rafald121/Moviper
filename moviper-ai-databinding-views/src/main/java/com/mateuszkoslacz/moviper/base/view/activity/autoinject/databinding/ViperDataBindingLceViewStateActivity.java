@@ -22,7 +22,7 @@ public abstract class ViperDataBindingLceViewStateActivity
                 ViewStateType extends ViewState<ViewType>,
                 Binding extends ViewDataBinding>
         extends ViperLceViewStateAiActivity<ContentView, Model, ViewType, Presenter, ViewStateType>
-        implements MvpLceView<Model>, ViperView {
+        implements ViperLceView<Model> {
 
     protected Binding mBinding;
 

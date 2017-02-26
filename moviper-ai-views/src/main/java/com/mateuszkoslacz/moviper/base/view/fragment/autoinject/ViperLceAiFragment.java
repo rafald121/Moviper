@@ -20,7 +20,7 @@ public abstract class ViperLceAiFragment
                 ViewType extends MvpLceView<Model>,
                 Presenter extends MvpPresenter<ViewType>>
         extends MvpLceAiFragment<ContentView, Model, ViewType, Presenter>
-        implements MvpLceView<Model>, ViperView {
+        implements ViperLceView<Model> {
 
     @NonNull
     @Override

@@ -11,6 +11,7 @@ import com.hannesdorfmann.mosby.mvp.MvpActivity;
 import com.hannesdorfmann.mosby.mvp.MvpFragment;
 import com.mateuszkoslacz.moviper.base.view.viewholder.ViperViewHolder;
 import com.mateuszkoslacz.moviper.iface.presenter.ViperPresenter;
+import com.mateuszkoslacz.moviper.iface.view.ViperView;
 
 import java.util.Random;
 

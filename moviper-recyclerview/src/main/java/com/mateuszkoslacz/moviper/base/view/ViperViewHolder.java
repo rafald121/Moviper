@@ -43,7 +43,7 @@ public abstract class ViperViewHolder<DataObject, View extends MvpDataView, Pres
 
     @NonNull
     @Override
-    public Activity getActivity() {
+    public Activity getContext() {
         return ((Activity) itemView.getContext());
     }
 

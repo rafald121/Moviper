@@ -39,6 +39,10 @@ dependencies {
 
     compile 'junit:junit:' + rootProject.ext.junitVersion
     compile project(':moviper-common')
+    compile 'com.android.support:recyclerview-v7:25.1.1'
+    compile project(path: ':moviper-ipc')
+    compile project(path: ':moviper-rx')
+    compile project(path: ':moviper-recyclerview') // TODO to be splitted!
 }
 
 

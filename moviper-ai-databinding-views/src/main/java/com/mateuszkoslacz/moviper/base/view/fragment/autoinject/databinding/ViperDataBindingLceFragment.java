@@ -24,7 +24,7 @@ public abstract class ViperDataBindingLceFragment
                 Presenter extends MvpPresenter<ViewType>,
                 Binding extends ViewDataBinding>
         extends ViperLceAiFragment<ContentView, Model, ViewType, Presenter>
-        implements MvpLceView<Model>, ViperView {
+        implements ViperLceView<Model> {
 
     protected Binding mBinding;
 

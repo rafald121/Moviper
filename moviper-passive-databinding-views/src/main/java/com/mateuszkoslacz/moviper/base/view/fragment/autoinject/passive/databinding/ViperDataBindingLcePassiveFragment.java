@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.hannesdorfmann.mosby.mvp.lce.MvpLceView;
+import com.mateuszkoslacz.moviper.base.view.fragment.autoinject.passive.ViperLceAiPassiveFragment;
+import com.mateuszkoslacz.moviper.iface.view.ViperLceView;
 
 /**
  * Created by mateuszkoslacz on 14.12.2016.
@@ -20,7 +22,7 @@ public abstract class ViperDataBindingLcePassiveFragment
                 ViewType extends MvpLceView<Model>,
                 Binding extends ViewDataBinding>
         extends ViperLceAiPassiveFragment<ContentView, Model, ViewType>
-        implements MvpLceView<Model>, ViperView {
+        implements ViperLceView<Model> {
 
     protected Binding mBinding;
 

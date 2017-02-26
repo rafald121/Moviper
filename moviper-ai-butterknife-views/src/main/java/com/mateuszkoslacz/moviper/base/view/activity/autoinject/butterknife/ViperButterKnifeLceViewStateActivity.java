@@ -21,7 +21,7 @@ public abstract class ViperButterKnifeLceViewStateActivity
                 Presenter extends MvpPresenter<ViewType>,
                 ViewStateType extends ViewState<ViewType>>
         extends ViperLceViewStateAiActivity<ContentView, Model, ViewType, Presenter, ViewStateType>
-        implements MvpLceView<Model>, ViperView {
+        implements ViperLceView<Model> {
 
     @Override
     protected void injectViews() {

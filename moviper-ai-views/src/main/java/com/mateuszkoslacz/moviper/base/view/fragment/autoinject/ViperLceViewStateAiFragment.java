@@ -22,7 +22,7 @@ public abstract class ViperLceViewStateAiFragment
                 Presenter extends MvpPresenter<ViewType>,
                 ViewStateType extends ViewState<ViewType>>
         extends MvpLceViewStateAiFragment<ContentView, Model, ViewType, Presenter>
-        implements MvpLceView<Model>, ViperView {
+        implements ViperLceView<Model> {
 
     @Override
     public ViewStateType getViewState() {

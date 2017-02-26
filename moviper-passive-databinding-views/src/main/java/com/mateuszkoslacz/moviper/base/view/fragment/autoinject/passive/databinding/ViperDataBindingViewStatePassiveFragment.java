@@ -10,7 +10,9 @@ import android.view.ViewGroup;
 
 import com.hannesdorfmann.mosby.mvp.MvpView;
 import com.hannesdorfmann.mosby.mvp.viewstate.ViewState;
+import com.mateuszkoslacz.moviper.base.view.fragment.autoinject.passive.ViperViewStateAiPassiveFragment;
 import com.mateuszkoslacz.moviper.iface.view.ContextHolder;
+import com.mateuszkoslacz.moviper.iface.view.ViperView;
 
 /**
  * Created by mateuszkoslacz on 14.12.2016.
